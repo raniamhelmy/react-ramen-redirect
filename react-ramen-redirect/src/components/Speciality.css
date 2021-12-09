@@ -1,0 +1,32 @@
+.speciality--container{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
+      url("https://cdn.tasteatlas.com/images/dishes/b6b9680a32c84a9381a1ea5f5e529698.jpg");
+    height: 90vh;
+    max-height: 500px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding: 0 1rem;
+  }
+  .speciality--container h2{
+    font-size: clamp(3rem, 5vw, 5rem);
+    font-family:"Anton",sans-serif;
+  }
+  .speciality--container p{
+      font-family: "Lato",sans-serif;
+      margin: 1.5rem 1rem 2rem 1rem;
+      font-size: clamp(1.2rem, 3vw, 2rem);
+  }
+  
+  .speciality--container p em{
+    /*font-family:"Anton",sans-serif;*/
+    /*font-size: 1.2rem;*/
+    text-decoration:underline;
+    margin-right: 5px;
+  
+  }

@@ -1,0 +1,131 @@
+.full--menu{
+    padding: 1.5rem calc((100vw - 1300px) / 2) 5rem calc((100vw - 1300px) / 2);
+    background: #150f0f;
+    color: #fff;
+   
+    /*border:1px solid red;*/
+  }
+  .items--wrap{
+    /*border:1px solid green;*/
+    display:grid;
+    grid-template-columns: 2fr 2fr;
+    margin:10px 10px ;
+    max-width: 1550px;
+    gap: 8rem 2rem;
+  }
+  .menu-item, .item-ganb-bad{
+    display:flex;
+   
+    justify-content: center;
+    align-items: center;
+  }
+  .menu-item{
+     border:1px solid rgba(189, 19, 41,0.5);
+     max-height: 400px;
+  }
+  
+  .menu-item .product--img{
+    margin:auto;
+  }
+  
+  .product--img{
+    height: 300px;
+    max-width: 300px;
+    margin:auto;
+    box-shadow: 8px 8px #fdc500; 
+    }
+  .item--info{
+    /*border:1px solid blue;*/
+    margin-left:20px;
+    margin-top:15px;
+  }
+  
+  .price{
+    font-family:"Anton",sans-serif;
+    font-size: 1.3rem;
+    color:#fdc500;
+  }
+  
+  .item--info header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px dotted #fdc500;
+  
+  }
+  
+  .item--info header .product--title{
+    font-size: 1.6rem;
+  }
+  .item--info .product--desc{
+    margin:20px 0px 35px 0px;
+  }
+  
+  
+  /*@media screen and (max-width: 1100px) {
+    .items--wrap {
+      width: 95vw;
+      grid-template-columns: 0.1fr ;
+      justify-content: center;
+      align-items: center;
+    }
+  
+  }*/
+  
+  @media screen and (max-width: 1150px) {
+    .items--wrap {
+      display:grid;
+      grid-template-columns: 1fr ;
+      gap: 8rem 2rem;
+      align-items: center;
+      justify-content: center;
+      margin:100px;
+    }
+  
+  }
+  
+  @media screen and (max-width: 900px) {
+  
+   .items--wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   }
+   .item--info{
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     /*display:none;*/
+   }
+   .item--info header{
+     flex-direction: column;
+     justify-content: center;
+  
+   }
+   .item--info .price{
+     margin:3px 0px;
+   }
+   
+  
+  
+  }
+  
+  @media screen and (max-width: 800px) {
+   
+    .item--info{
+      flex-direction:column;
+      max-width:80%;
+      margin:auto;
+      margin-top:20px;
+    }
+    
+    .item-ganb-bad{
+      flex-direction: column;
+    }
+    .menu-item{
+      max-height: none;
+    }
+  
+  }

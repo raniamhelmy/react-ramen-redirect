@@ -1,0 +1,15 @@
+.wrap{
+    background: #150f0f;
+    text-align: center;
+    padding: 3rem ;
+    /*border:1px solid red;*/
+}
+.title h2{
+  font-family:"Anton",sans-serif;
+  font-size: 3rem;
+  color:#fff;
+  margin: 10px 0 50px 0;
+}
+.title{
+  margin:20px;
+}

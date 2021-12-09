@@ -1,0 +1,4 @@
+.special--one .product--card--wrap{
+    flex-wrap: wrap;
+    /*border:1px solid red;*/
+  }

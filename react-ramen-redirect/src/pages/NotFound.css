@@ -1,0 +1,25 @@
+.error-container{
+    margin:auto;
+    /*border:1px solid red;*/
+    text-align:center;
+    padding:5rem;
+    background-color: #150f0f;
+  }
+  .error-container h1{
+    font-family:"Anton",sans-serif;
+    font-size: clamp(2rem, 5vw, 3rem);
+    color:#fff;
+  }
+  
+  .error-container h2{
+    font-family:"Lato",sans-serif;
+    font-size: clamp(2rem, 2vw, 3rem);
+    margin:2rem 0 2.1rem 0;
+    color:#fff;
+  }
+  .error-container .new1{
+    border: 10px solid #e9ba23;
+    border-radius: 5px;
+    width:35%;
+    margin:auto;
+  }

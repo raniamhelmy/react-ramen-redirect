@@ -1,0 +1,91 @@
+.product--container {
+    /* width: 100vw; */
+    min-height: 100vh;
+    padding: 5rem calc((100vw - 1300px) / 2);
+    background: #150f0f;
+    color: #fff;
+  }
+  .product--heading h2 {
+    text-align: center;
+    letter-spacing: 0.2rem;
+    margin-bottom: 5rem;
+    font-size: 45px;
+    font-family: "Anton", sans-serif;
+  }
+  .product--card--wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 0 auto;
+    /*border:1px solid green;*/
+  }
+  .product--card {
+    margin: 1rem 2rem;
+    line-height: 2;
+    max-width: 300px;
+    /* border:1px solid yellow;*/
+  }
+  
+  .product--img {
+    height: 300px;
+    min-width: 300px;
+    max-width: 100%;
+    box-shadow: 8px 8px #fdc500;
+  }
+  
+  .product--info {
+    /* border:1px solid red;*/
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2rem;
+    height: 550px;
+    box-sizing: border-box;
+  }
+  
+  .product--title {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+  }
+  
+  .product--desc {
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1.7rem;
+    margin-top: 0.4rem;
+  }
+  
+  .product--price {
+    font-family: "Anton", sans-serif;
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+  }
+  
+  .product--btn {
+    margin: 0.2rem auto;
+  }
+  
+  @media screen and (max-width: 1100px) {
+    .product--card--wrap {
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
+  @media screen and (max-width: 550px) {
+    .product--card {
+      margin: 1rem auto;
+      text-align: center;
+    }
+    .product--img {
+      min-width: 250px;
+      margin: auto;
+      max-width: 80%;
+    }
+  }
+  

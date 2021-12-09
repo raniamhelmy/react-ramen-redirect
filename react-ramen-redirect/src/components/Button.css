@@ -1,0 +1,59 @@
+:root {
+    --primary: rgb(189, 19, 41);
+  }
+  .btn{
+    padding: 8px 30px;
+    margin-top: -10px;
+    border-radius: 2px;
+    outline:none;
+    border:none;
+    cursor:pointer;
+  }
+  .btn--primary{
+   background-color: var(--primary);
+   color:#fff;
+   border:1px solid var(--primary);
+  }
+  
+  
+  .btn--outline{
+  background-color: transparent;
+  color: var(--primary);
+  padding:8px 20px;
+  border:1px solid var(--primary);
+  transition: all 0.3s ease-out ; /*allows you to change property values smoothly, over a given duration*/
+  }
+  
+  .btn--medium{
+  padding:8px 30px;
+  font-size:20px;
+  
+  }
+  .btn--large{
+  padding:12px 26px;
+  font-size:20px;
+  }
+  .btn--small{
+  padding:5px 10px;
+  font-size:15px;
+  }
+  
+  .btn--order{
+  padding:12px 26px;
+  font-size:20px;
+  font-family: "Lato",sans-serif;
+  }
+  .btn--order:hover{
+    background: #000;
+    border:1px solid #000;
+    color:#fff;
+    transition: all 0.3s ease-out;
+  }
+  
+  .btn--medium:hover, .btn--large:hover, .btn--small:hover{
+  background: #ffc500;
+  border:1px solid #ffc500;
+  color:#000;
+  transition: all 0.3s ease-out;
+  }
+  

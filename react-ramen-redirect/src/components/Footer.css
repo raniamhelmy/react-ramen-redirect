@@ -1,0 +1,130 @@
+
+.social-media {
+    width: 100%;
+    /*border:1px solid yellow;*/
+    background: #150f0f;
+    padding:2rem 2rem 0rem 2rem ;
+  }
+  
+  .social-media-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+   /* border:1px solid blue;*/
+    margin: 0px auto 0 auto;
+  }
+  
+  
+  
+  .social-logo {
+    color: #fff;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  .social-logo{
+    text-decoration: none;
+    font-family: "Anton",sans-serif;
+  }
+  .social-logo:hover{
+    text-decoration: none;
+    color:#fff;
+  }
+   .social-icon-link:hover{
+    color:#ffc500;
+    text-decoration: none;
+  }
+  
+  .social-logo .fa-typo3{
+    margin-top: 1px;
+  }
+  
+  .website-rights {
+    font-family:"Lato",sans-serif;
+    color: #fff;
+    margin-bottom: 16px;
+    margin-top:8px;
+    font-size:15px;
+    letter-spacing: 0.1em;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   /* border:1px solid red;*/
+    max-width: 440px;
+    box-sizing: border-box;
+  }
+  
+  
+  .social-icon-link {
+    color: #fff;
+    font-size: 24px;
+    margin:0px 20px;
+    
+  }
+  
+  
+  @media screen and (max-width: 820px) {
+    .input-areas form{
+      flex-direction:column;
+    }
+    .footer-links {
+      padding-top: 2rem;
+    }
+   .footer-link-items{
+     justify-content: stretch;
+     align-items: stretch;
+   }
+    .footer-input {
+      width: 100%;
+    }
+  
+    form .btn {
+      width: 100%;
+    }
+  
+    .footer-link-wrapper {
+      flex-direction: column;
+    }
+  
+    .social-media-wrap {
+      flex-direction: column;
+    }
+       .website-rights{
+      margin:10px auto;
+    }
+    .social-logo{
+      justify-content: center;
+      text-align: center;
+      margin:10px auto;
+    }
+    .social-icons{
+        margin-top:10px;
+    }
+    .social-media{
+      padding:1rem;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .footer-links{
+     flex-direction:column;
+     justify-content: center;
+     align-items: center;
+    }
+    .footer-link-items{
+     text-align: center;
+     height:auto;
+    }
+   
+  }
