@@ -1,5 +1,4 @@
 import React from 'react';
-//import {Link} from "react-router-dom"
 import {Button} from './Button.js'
 import "./Menu.css"
 
@@ -15,7 +14,6 @@ export default function Menu({ items }){
     <div className='full--menu'>
       <div className="items--wrap">
       {items.map((menuItem,index) => {
-        /*const { id, title, img, desc, price } = menuItem;*/
         return (
         <article key={index} className='menu-item'>
         <div className="item-ganb-bad">

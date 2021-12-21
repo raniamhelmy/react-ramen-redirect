@@ -1,5 +1,4 @@
 .desserts--container{
-    /* width: 100vw; */
     min-height: 100vh;
     padding: 5rem calc((100vw - 1300px) / 2) 0.5rem calc((100vw - 1300px) / 2);
     background: #150f0f;
@@ -18,13 +17,11 @@
     flex-wrap: nowrap;
     justify-content: center;
     margin: 0 auto;
-     /*border:1px solid green;*/
     }
    .desserts--card{
     margin: 1rem 2rem;
     line-height: 2;
     max-width: 300px;
-   /* border:1px solid yellow;*/
    }
   
   .desserts--img{
@@ -35,7 +32,6 @@
   }
   
   .desserts--info{
-   /* border:1px solid red;*/
     text-align: center;
     display: flex;
     flex-direction: column;

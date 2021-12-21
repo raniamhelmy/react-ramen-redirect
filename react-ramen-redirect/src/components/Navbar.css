@@ -4,7 +4,6 @@
     display: flex;
     justify-content: center;
     font-weight: 700;
-    /*border:1px solid black;*/
     font-family:"Anton", sans-serif;
   }
   
@@ -20,7 +19,6 @@
     align-items: flex-start;
     text-decoration: none;
     cursor: pointer;
-    /*border:1px solid red;*/
   }
   
   .navbar-brand{
@@ -43,7 +41,6 @@
   }
   .nav-items  .bar {
     font-size:3rem;
-    /*border:1px solid #ffff00;*/
     transform: translate(-50%, -50%);
   }
   
