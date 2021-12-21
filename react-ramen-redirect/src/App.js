@@ -15,27 +15,21 @@ export default function App() {
     <>
     
       <Router>
-      <HeroSection/>
-      <Switch>
-        <Route exact path="/"  component= {Home} />
-        <Route path="/Ramen"  component= {Ramen} />
-        <Route path="/Dessert"  component= {Dessert} />
-        <Route path="/Beverages"  component= {Beverages} />
-        <Route path="/FullMenu"  component= {FullMenu} />
-        <Route  component= {NotFound} />
-     
-     </Switch>
+        <HeroSection/>
+        <Switch>
+          <Route exact path="/"  component= {Home} />
+          <Route path="/Ramen"  component= {Ramen} />
+          <Route path="/Dessert"  component= {Dessert} />
+          <Route path="/Beverages"  component= {Beverages} />
+          <Route path="/FullMenu"  component= {FullMenu} />
+          <Route  component= {NotFound} />
+      
+        </Switch>
     
      
       </Router>
      
-     {/* <h1>Hello </h1>
-      <Router>
-        <Navbar/>
-        <Switch>
-            <Route path="/" exact component= {Home} />
-          </Switch>
-       </Router>*/}
+   
        
     </>
   );

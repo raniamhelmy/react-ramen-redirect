@@ -1,4 +1,4 @@
-/* Thiis is the array of data that we are going to use for both Ramens an Desserts */
+/* This is the array of data that we are going to use for both Ramens an Desserts */
 
 export const ramenData = [
     {
